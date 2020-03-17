@@ -34,8 +34,8 @@ defmodule ElixirAuthGoogle.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:httpoison, "~> 1.6.2"},
-      {:poison, "~> 4.0.1"},
+      {:httpoison, "~> 1.5.0"},
+      {:poison, "~> 3.1.0"},
 
       # tracking test coverage
       {:excoveralls, "~> 0.12.1", only: [:test, :dev]},
