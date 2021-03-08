@@ -35,7 +35,7 @@ defmodule ElixirAuthGoogle.MixProject do
   defp deps do
     [
       {:httpoison, "~> 1.5.0"},
-      {:poison, "~> 3.1.0"},
+      {:poison, "~> 3.0"},
 
       # tracking test coverage
       {:excoveralls, "~> 0.12.1", only: [:test, :dev]},
